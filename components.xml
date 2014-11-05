@@ -1,0 +1,97 @@
+<Packages>
+    <ApplicationName>Qt 5.3.2</ApplicationName>
+    <ApplicationVersion>5.3.2</ApplicationVersion>
+    <Package>
+        <Name>qt</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt</Title>
+        <Description>Qt 5.3.2</Description>
+        <Version>5.3.2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-11-04</InstallDate>
+        <Size>81814</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.tools</Name>
+        <Pixmap></Pixmap>
+        <Title>Tools</Title>
+        <Description>IDE, Internationalization, Design and other tools to accelerate development.</Description>
+        <Version>1.0.3</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-11-04</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.readme</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt 5.3.2 Readme</Title>
+        <Description>Qt 5.3.2 Readme</Description>
+        <Version>1.0.0-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-11-04</InstallDate>
+        <Size>5557</Size>
+        <Dependencies></Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreator</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt Creator 3.2.1</Title>
+        <Description>IDE for Qt application development</Description>
+        <Version>3.2.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-11-04</InstallDate>
+        <Size>248133035</Size>
+        <Dependencies></Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+    <Package>
+        <Name>qt.53.doc</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt 5.3 Documentation</Title>
+        <Description>Qt 5.3 documentation</Description>
+        <Version>5.3.2-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-11-04</InstallDate>
+        <Size>344392839</Size>
+        <Dependencies>qt.tools</Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.53.examples</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt 5.3 Examples</Title>
+        <Description>Qt 5.3 Examples</Description>
+        <Version>5.3.2-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-11-04</InstallDate>
+        <Size>35152030</Size>
+        <Dependencies>qt.tools</Dependencies>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.53</Name>
+        <Pixmap></Pixmap>
+        <Title>Qt 5.3</Title>
+        <Description>Qt 5.3.2</Description>
+        <Version>5.3.2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-11-04</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.53.doc,qt.53.examples</Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.53.gcc_64</Name>
+        <Pixmap></Pixmap>
+        <Title>gcc 64-bit</Title>
+        <Description>Qt 5.3.2 Prebuilt Components for gcc 64-bit </Description>
+        <Version>5.3.2-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2014-11-04</InstallDate>
+        <Size>194147335</Size>
+        <Dependencies>qt.tools.qtcreator</Dependencies>
+    </Package>
+</Packages>

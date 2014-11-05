@@ -1,0 +1,389 @@
+************************************* Invoked: Tue Nov 4 12:25:15 2014
+Operations start: 238339
+Operations end: 16
+Resource count: 1
+Data block size: 445342291
+Magic marker: 302133811
+Magic cookie: 14007050384008702200
+Index size: 48
+End of data: 468521191
+Number of operations: 0
+Operations sanity check succeeded.
+Unable to open translated license file. Using untranslated fallback.
+Unable to open translated license file. Using untranslated fallback.
+Unable to open translated license file. Using untranslated fallback.
+Unable to open translated license file. Using untranslated fallback.
+components list is empty in bool QInstaller::PackageManagerCorePrivate::appendComponentsToUninstall(const QList<QInstaller::Component*>&)
+Could not determine available space on device. Volume descriptor: , Mount path: . Continue silently.
+backup  operation: Mkdir
+	- arguments: /home/bringout/Qt
+Done
+perform  operation: Mkdir
+	- arguments: /home/bringout/Qt
+Done
+Install size: 8 components
+Register documentation and examples for: /home/bringout/Qt/5.3/gcc_64
+Patching doc & examples for: /home/bringout/Qt/5.3/gcc_64
+qt.conf file: /home/bringout/Qt/5.3/gcc_64/bin/qt.conf
+backup qt operation: Extract
+	- arguments: installer://qt/5.3.2ThirdPartySoftware_Listing.7z, /home/bringout/Qt
+Done
+perform qt operation: Extract
+	- arguments: installer://qt/5.3.2ThirdPartySoftware_Listing.7z, /home/bringout/Qt
+Done
+backup qt operation: License
+	- arguments: 
+Done
+perform qt operation: License
+	- arguments: 
+Done
+backup qt.readme operation: Extract
+	- arguments: installer://qt.readme/1.0.0-0qt-project-url.7z, /home/bringout/Qt
+Done
+perform qt.readme operation: Extract
+	- arguments: installer://qt.readme/1.0.0-0qt-project-url.7z, /home/bringout/Qt
+Done
+backup qt.readme operation: Extract
+	- arguments: installer://qt.readme/1.0.0-0readme.7z, /home/bringout/Qt
+Done
+perform qt.readme operation: Extract
+	- arguments: installer://qt.readme/1.0.0-0readme.7z, /home/bringout/Qt
+Done
+backup qt.tools.qtcreator operation: Extract
+	- arguments: installer://qt.tools.qtcreator/3.2.1-0qt-creator-opensource-ubuntu1110-64.7z, /home/bringout/Qt
+Done
+perform qt.tools.qtcreator operation: Extract
+	- arguments: installer://qt.tools.qtcreator/3.2.1-0qt-creator-opensource-ubuntu1110-64.7z, /home/bringout/Qt
+Done
+backup qt.tools.qtcreator operation: InstallIcons
+	- arguments: /home/bringout/Qt/Tools/QtCreator/share/icons
+Done
+perform qt.tools.qtcreator operation: InstallIcons
+	- arguments: /home/bringout/Qt/Tools/QtCreator/share/icons
+Done
+backup qt.tools.qtcreator operation: CreateDesktopEntry
+	- arguments: DigiaQtOpenSource-qtcreator.desktop, Type=Application
+Exec=/home/bringout/Qt/Tools/QtCreator/bin/qtcreator
+Name=Qt Creator (Opensource)
+GenericName=The IDE of choice for Qt development.
+Icon=QtProject-qtcreator
+Terminal=false
+Categories=Development;IDE;Qt;
+MimeType=text/x-c++src;text/x-c++hdr;text/x-xsrc;application/x-designer;application/vnd.qt.qmakeprofile;application/vnd.qt.xml.resource;text/x-qml;text/x-qt.qml;text/x-qt.qbs;
+Done
+perform qt.tools.qtcreator operation: CreateDesktopEntry
+	- arguments: DigiaQtOpenSource-qtcreator.desktop, Type=Application
+Exec=/home/bringout/Qt/Tools/QtCreator/bin/qtcreator
+Name=Qt Creator (Opensource)
+GenericName=The IDE of choice for Qt development.
+Icon=QtProject-qtcreator
+Terminal=false
+Categories=Development;IDE;Qt;
+MimeType=text/x-c++src;text/x-c++hdr;text/x-xsrc;application/x-designer;application/vnd.qt.qmakeprofile;application/vnd.qt.xml.resource;text/x-qml;text/x-qt.qml;text/x-qt.qbs;
+Done
+backup qt.53.doc operation: Extract
+	- arguments: installer://qt.53.doc/5.3.2-0qt5_docs.7z, /home/bringout/Qt
+Done
+perform qt.53.doc operation: Extract
+	- arguments: installer://qt.53.doc/5.3.2-0qt5_docs.7z, /home/bringout/Qt
+Done
+backup qt.53.doc operation: Settings
+	- arguments: path=/home/bringout/Qt//Tools/QtCreator/share/qtcreator/QtProject/QtCreator.ini, method=add_array_value, key=Help/InstalledDocumentation, value=/home/bringout/Qt/Docs/Qt-5.3/
+Done
+perform qt.53.doc operation: Settings
+	- arguments: path=/home/bringout/Qt//Tools/QtCreator/share/qtcreator/QtProject/QtCreator.ini, method=add_array_value, key=Help/InstalledDocumentation, value=/home/bringout/Qt/Docs/Qt-5.3/
+Done
+backup qt.53.examples operation: Extract
+	- arguments: installer://qt.53.examples/5.3.2-0qt5_examples.7z, /home/bringout/Qt
+Done
+perform qt.53.examples operation: Extract
+	- arguments: installer://qt.53.examples/5.3.2-0qt5_examples.7z, /home/bringout/Qt
+Done
+backup qt.53.gcc_64 operation: Extract
+	- arguments: installer://qt.53.gcc_64/5.3.2-0icu_52_1_ubuntu_11_10_64.7z, /home/bringout/Qt
+Done
+perform qt.53.gcc_64 operation: Extract
+	- arguments: installer://qt.53.gcc_64/5.3.2-0icu_52_1_ubuntu_11_10_64.7z, /home/bringout/Qt
+Done
+backup qt.53.gcc_64 operation: Extract
+	- arguments: installer://qt.53.gcc_64/5.3.2-0qt5_addons.7z, /home/bringout/Qt
+Done
+perform qt.53.gcc_64 operation: Extract
+	- arguments: installer://qt.53.gcc_64/5.3.2-0qt5_addons.7z, /home/bringout/Qt
+Done
+backup qt.53.gcc_64 operation: Extract
+	- arguments: installer://qt.53.gcc_64/5.3.2-0qt5_essentials.7z, /home/bringout/Qt
+Done
+perform qt.53.gcc_64 operation: Extract
+	- arguments: installer://qt.53.gcc_64/5.3.2-0qt5_essentials.7z, /home/bringout/Qt
+Done
+backup qt.53.gcc_64 operation: ConsumeOutput
+	- arguments: qt.53.gcc_64_qmakeoutput, /home/bringout/Qt/5.3/gcc_64/bin/qmake, -query
+Done
+perform qt.53.gcc_64 operation: ConsumeOutput
+	- arguments: qt.53.gcc_64_qmakeoutput, /home/bringout/Qt/5.3/gcc_64/bin/qmake, -query
+Done
+backup qt.53.gcc_64 operation: QtPatch
+	- arguments: linux, /home/bringout/Qt/5.3/gcc_64, qt5
+Done
+perform qt.53.gcc_64 operation: QtPatch
+	- arguments: linux, /home/bringout/Qt/5.3/gcc_64, qt5
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libEnginio.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5DesignerComponents.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5OpenGLExtensions.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5UiTools.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5XmlPatterns.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5WebKit.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5CLucene.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libqgsttools_p.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Help.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Gui.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5WebSockets.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Core.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Network.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Help.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5WebSockets.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5MultimediaQuick_p.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Bluetooth.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Svg.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5X11Extras.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5OpenGL.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Script.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5MultimediaQuick_p.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Nfc.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Sql.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Designer.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5UiTools.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5QuickParticles.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5DesignerComponents.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Concurrent.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Designer.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Positioning.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5MultimediaWidgets.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libEnginio.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5QmlDevTools.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Network.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5ScriptTools.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Widgets.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5SerialPort.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Qml.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Multimedia.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5SerialPort.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Declarative.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Core.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Bluetooth.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Sensors.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Test.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5QuickTest.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Sensors.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5WebKitWidgets.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Bootstrap.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Quick.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Sql.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5OpenGL.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5QuickWidgets.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5OpenGLExtensions.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Nfc.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5QuickWidgets.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5PrintSupport.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Declarative.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5PlatformSupport.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5MultimediaQuick_p.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5WebSockets.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5SerialPort.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5ScriptTools.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5QuickParticles.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Concurrent.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Declarative.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5QmlDevTools.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5MultimediaWidgets.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Sensors.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Xml.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Positioning.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5WebKitWidgets.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Svg.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5OpenGL.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5OpenGLExtensions.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5QuickWidgets.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Qml.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Help.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Bootstrap.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Network.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5PrintSupport.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5X11Extras.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Nfc.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5QuickTest.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Widgets.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Enginio.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Gui.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Core.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5DesignerComponents.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5UiTools.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5CLucene.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Designer.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Quick.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Test.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5XmlPatterns.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5DBus.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Bluetooth.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5WebKit.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Script.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Multimedia.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5Sql.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/pkgconfig/Qt5PlatformSupport.pc'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5CLucene.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Xml.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5WebKit.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Gui.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Widgets.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5DBus.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Concurrent.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Multimedia.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Positioning.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5QmlDevTools.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5DBus.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5ScriptTools.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Bootstrap.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5MultimediaWidgets.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5QuickTest.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5X11Extras.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5QuickParticles.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Svg.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Test.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5PlatformSupport.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Script.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Quick.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Xml.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5XmlPatterns.la'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5WebKitWidgets.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5PrintSupport.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/lib/libQt5Qml.prl'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/qfeatures.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_concurrent.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_designer.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_x11extras_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_qmltest.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_testlib.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_xml.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_webkit_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_openglextensions_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_core_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_clucene_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_declarative.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_enginio.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_websockets.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_x11extras.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_webkitwidgets.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_positioning_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_webkitwidgets_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_script.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_openglextensions.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_nfc.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_nfc_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_quick.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_serialport.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_xmlpatterns.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_printsupport.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_svg_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_dbus.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_declarative_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_qml_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_help_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_sql_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_sensors.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_gui.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_multimedia.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_scripttools_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_quick_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_scripttools.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_designer_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_enginio_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_script_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_sql.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_positioning.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_gui_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_xml_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_network_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_bootstrap_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_qml.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_platformsupport_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_sensors_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_help.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_uitools.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_xmlpatterns_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_opengl.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_svg.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_widgets.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_network.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_webkit.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_qmldevtools_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_websockets_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_core.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/modules/qt_lib_serialport_private.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/qmodule.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/features/dbuscommon.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/qdevice.pri'
+QtPatchOperation::getDirContent match: '/home/bringout/Qt/5.3/gcc_64/mkspecs/qconfig.pri'
+Done
+backup qt.53.gcc_64 operation: Execute
+	- arguments: /home/bringout/Qt//Tools/QtCreator/bin/sdktool, addQt, --id, qt.53.gcc_64, --name, Qt 5.3 GCC 64bit, --type, Qt4ProjectManager.QtVersion.Desktop, --qmake, /home/bringout/Qt/5.3/gcc_64/bin/qmake, UNDOEXECUTE, /home/bringout/Qt//Tools/QtCreator/bin/sdktool, rmQt, --id, qt.53.gcc_64
+Done
+perform qt.53.gcc_64 operation: Execute
+	- arguments: /home/bringout/Qt//Tools/QtCreator/bin/sdktool, addQt, --id, qt.53.gcc_64, --name, Qt 5.3 GCC 64bit, --type, Qt4ProjectManager.QtVersion.Desktop, --qmake, /home/bringout/Qt/5.3/gcc_64/bin/qmake, UNDOEXECUTE, /home/bringout/Qt//Tools/QtCreator/bin/sdktool, rmQt, --id, qt.53.gcc_64
+/home/bringout/Qt//Tools/QtCreator/bin/sdktool" started, arguments: "addQt --id qt.53.gcc_64 --name Qt 5.3 GCC 64bit --type Qt4ProjectManager.QtVersion.Desktop --qmake /home/bringout/Qt/5.3/gcc_64/bin/qmake
+Done
+backup qt.53.gcc_64 operation: Execute
+	- arguments: /home/bringout/Qt//Tools/QtCreator/bin/sdktool, addKit, --id, qt.53.gcc_64_kit, --name, Desktop Qt 5.3 GCC 64bit, --toolchain, x86-linux-generic-elf-64bit, --qt, qt.53.gcc_64, --debuggerengine, 1, --devicetype, Desktop, UNDOEXECUTE, /home/bringout/Qt//Tools/QtCreator/bin/sdktool, rmKit, --id, qt.53.gcc_64_kit
+Done
+perform qt.53.gcc_64 operation: Execute
+	- arguments: /home/bringout/Qt//Tools/QtCreator/bin/sdktool, addKit, --id, qt.53.gcc_64_kit, --name, Desktop Qt 5.3 GCC 64bit, --toolchain, x86-linux-generic-elf-64bit, --qt, qt.53.gcc_64, --debuggerengine, 1, --devicetype, Desktop, UNDOEXECUTE, /home/bringout/Qt//Tools/QtCreator/bin/sdktool, rmKit, --id, qt.53.gcc_64_kit
+/home/bringout/Qt//Tools/QtCreator/bin/sdktool" started, arguments: "addKit --id qt.53.gcc_64_kit --name Desktop Qt 5.3 GCC 64bit --toolchain x86-linux-generic-elf-64bit --qt qt.53.gcc_64 --debuggerengine 1 --devicetype Desktop
+Done
+backup qt.53.gcc_64 operation: Settings
+	- arguments: path=/home/bringout/Qt/5.3/gcc_64/bin/qt.conf, method=add_array_value, key=Paths/Prefix, value=..
+Done
+perform qt.53.gcc_64 operation: Settings
+	- arguments: path=/home/bringout/Qt/5.3/gcc_64/bin/qt.conf, method=add_array_value, key=Paths/Prefix, value=..
+Done
+backup qt.53.gcc_64 operation: Settings
+	- arguments: path=/home/bringout/Qt/5.3/gcc_64/bin/qt.conf, method=add_array_value, key=Paths/Examples, value=../../Examples/Qt-5.3
+Done
+perform qt.53.gcc_64 operation: Settings
+	- arguments: path=/home/bringout/Qt/5.3/gcc_64/bin/qt.conf, method=add_array_value, key=Paths/Examples, value=../../Examples/Qt-5.3
+Done
+backup qt.53.gcc_64 operation: Settings
+	- arguments: path=/home/bringout/Qt/5.3/gcc_64/bin/qt.conf, method=add_array_value, key=Paths/Documentation, value=../../Docs/Qt-5.3
+Done
+perform qt.53.gcc_64 operation: Settings
+	- arguments: path=/home/bringout/Qt/5.3/gcc_64/bin/qt.conf, method=add_array_value, key=Paths/Documentation, value=../../Docs/Qt-5.3
+Done
+create Error-Exception: "Found a binary data file, but we are the installer and we should read the binary resource from our very own binary!"
+Operations start: 238339
+Operations end: 16
+Resource count: 1
+Data block size: 445342291
+Magic marker: 302133811
+Magic cookie: 14007050384008702200
+Index size: 48
+End of data: 468521191
+Writing uninstaller: "/home/bringout/Qt/MaintenanceTool.new"
+Maintenance tool restart: false.
+SHOW FINISHED PAGE
